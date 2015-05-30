@@ -9,3 +9,6 @@ AV.Cloud.define("hello1", function(request, response) {
 });
 
 
+AV.Cloud.define("hello3", function(request, response) {
+    response.success("Hello world!3");
+});
